@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/3.1.1jquery.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="styles/libs.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" class="header">
+            <h2>Погода</h2>
+        </header>
+        <main id="main" class="main">
+            <article class="city-choice">
+                <h2>Выберете город!</h2>
+                <select name="city" id="city" class="city">
+                    <option disabled selected>Россия</option>
+                    <option value="Moscow,ru">Москва</option>
+                    <option value="Saint Petersburg,ru">Санкт-Петербург</option>
+                    <option disabled>Беларусия</option>
+                    <option value="Minsk,by">Минск</option>
+                    <option value="Brest,by">Брест</option>
+                    <option disabled>Великобритания</option>
+                    <option value="London,uk">Лондон</option>
+                    <option value="Edinburgh,uk">Эдинбург</option>
+                    <option disabled>США</option>
+                    <option value="Los Angeles,us">Лос-Анджелес</option>
+                    <option value="New York,us">Нью-Йорк</option>
+                </select>
+                <div id="show-weather" class="show-weather" ></div>
+            </article>
+        </main>
+    </div>
+</body>
+</html>
